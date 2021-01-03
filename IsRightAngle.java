@@ -5,9 +5,11 @@ public class IsRightAngle
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter dimentions");
+        System.out.println("enter 1st dimention ");
         int a=sc.nextInt();
+ System.out.println("enter 2nd dimention ");
         int b=sc.nextInt();
+ System.out.println("enter 3rd dimention ");
         int c= sc.nextInt();
         if ( ((a==0) ||(a<0)) || ((b==0) || (b<0)) || ((c==0) || (c<0)))
              System.out.println("invalid dimentions");
